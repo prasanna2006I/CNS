@@ -28,7 +28,48 @@ becomes C. To change a message back, each letter is replaced by the one three be
 
 
 PROGRAM :-
+```
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+void main()
 
+{
+    char plain[10],cipher[10];
+    int key,i,length;
+    int result;
+    printf("\n \tEnter the plain text:");
+    scanf("%s", plain);
+    printf("\n \tEnter the key value:");
+    scanf("%d", &key);
+    printf("\n\tPLAIN TEXt: %s", plain);
+    printf("\n \tENCRYPTED TEXT:");
+    for(i=0, length = strlen(plain); i<length; i++)
+    {
+        
+        cipher[i]=plain[i] + key;
+        if (isupper(plain[i]) && (cipher[i] > 'Z'))
+        cipher[i] = cipher[i] - 26;
+        if (islower(plain[i]) && (cipher[i] > 'z'))
+        cipher[i] = cipher[i] - 26;
+        printf("%c", cipher[i]);
 
-
+    }
+    printf("\n \tAFTER DECRYPTION : ");
+    for(i=0;i<length;i++)
+    {
+        
+        plain[i]=cipher[i]-key;
+        if(isupper(cipher[i])&&(plain[i]<'A'))
+        plain[i]=plain[i]+26;
+        if(islower(cipher[i])&&(plain[i]<'a'))
+        plain[i]=plain[i]+26;
+        printf("%c",plain[i]);
+    }
+}
+```
 OUTPUT :-
+![image](https://github.com/user-attachments/assets/314d47dd-589a-425d-a452-253509b9b2df)
+RESULT:
+THE PROGRAM WAS EXCUTE SUCCESSFULLY.
+
