@@ -72,7 +72,8 @@ void main()
 ```
 ## OUTPUT :-
 
-![image](https://github.com/user-attachments/assets/314d47dd-589a-425d-a452-253509b9b2df)
+![image](https://github.com/user-attachments/assets/cd4df9ff-383c-47a6-bf47-f604ba22809a)
+
 
 ## RESULT:
 THE PROGRAM WAS EXCUTE SUCCESSFULLY.
