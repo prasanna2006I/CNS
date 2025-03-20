@@ -13,8 +13,6 @@ becomes C. To change a message back, each letter is replaced by the one three be
 
 ## EXAMPLE:
 
-
-
 ![image](https://github.com/Hemamanigandan/CNS/assets/149653568/eb9c6c43-8c80-4cdd-b9d4-91705a311c79)
 
 
@@ -27,7 +25,7 @@ becomes C. To change a message back, each letter is replaced by the one three be
 ### STEP-5: Display the cipher text obtained above.
 
 
-PROGRAM :-
+## PROGRAM :-
 ```
 #include <stdio.h>
 #include <string.h>
@@ -68,8 +66,10 @@ void main()
     }
 }
 ```
-OUTPUT :-
+## OUTPUT :-
+
 ![image](https://github.com/user-attachments/assets/314d47dd-589a-425d-a452-253509b9b2df)
-RESULT:
+
+## RESULT:
 THE PROGRAM WAS EXCUTE SUCCESSFULLY.
 
